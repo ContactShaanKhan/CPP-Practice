@@ -64,6 +64,10 @@ int main()
     m->set(2, 2, 100);
     m->set(3, 3, 1212);
 
+    int temp = m->get(3,3);
+
+    cout << "Temp is: " << to_string(temp) << "\n";
+
     m->printMatrix();
 
     return 0;
